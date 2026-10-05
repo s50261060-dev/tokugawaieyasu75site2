@@ -1,0 +1,12 @@
+import random  # ランダム機能を使うために必要です
+
+# 1から10までのランダムな整数を変数 score に代入
+score = random.randint(1, 10)
+
+# スコアがいくつになったか確認するために表示
+print(f"現在のスコア: {score}")
+
+if score >= 6:
+    print("あってますねぇ")
+else:
+    print("インムキングの刑に処す")
